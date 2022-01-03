@@ -3,36 +3,19 @@
 I'm Stefan, a professional software developer from the west of Germany.
 In my free time I work on some small projects for fun.
 
-Android, Windows, Embedded and DeepLearining are my favourites.
+Android, Windows, Embedded and DeepLearning are my favourites.
 
-### Markdown
+### Windows Desktop
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[SLooper](https://github.com/StefanKDS/LooperProject)
+LooperProject contains a sample looper for Windows and Android.
+I will add more discription in the next days.....
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### DeepLearning
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Embedded
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StefanKDS/stefankds-github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
