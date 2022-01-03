@@ -1,6 +1,7 @@
 # Welcome to SeyerSoft
 
 I'm Stefan, a professional software developer from the west of Germany.  
+More about my skills you can find [here](skills.md).  
 In my free time I work on some small projects for fun.  
   
 Android, Windows, Embedded and DeepLearning are my favourites.
