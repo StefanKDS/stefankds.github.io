@@ -13,8 +13,15 @@ All Projects are open-source and under MIT License.
 
 [SLooper](https://github.com/StefanKDS/LooperProject)  
 LooperProject contains a sample looper for Windows and Android.  
-I will add more discription in the next days...
-  
+I will add more discription in the next days...  
+
+[Pedal Shield Uploader](https://github.com/StefanKDS/pedalSHIELD-Uploader)  
+This is a upload tool ( Desktop ) for the pedalSHIELD from   
+ElectroSmash (www.electrosmash.com/pedalshield).  
+
+[Arduino Terminal](https://github.com/StefanKDS/Arduino-Terminal)  
+Arduino Terminal is a Serial Monitor with the possibility   
+to send files to an Arduino attached SD-Card reader.  
 
 
 
@@ -45,6 +52,9 @@ It also includes a general helper file which you can use in nearly every project
   
   
   
-### Embedded
+### Embedded  
+
+[STM32-F7 Basic System](https://github.com/StefanKDS/STM32F7_BasicSystem)  
+This is a basic system for the STM32F746G-DISCO Board.  
 
 
