@@ -5,6 +5,9 @@ In my free time I work on some small projects for fun.
   
 Android, Windows, Embedded and DeepLearning are my favourites.
 
+All Projects are open-source and under MIT License.  
+
+
 ### Windows Desktop
 
 [SLooper](https://github.com/StefanKDS/LooperProject)  
