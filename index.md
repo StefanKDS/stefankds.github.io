@@ -7,8 +7,8 @@ Android, Windows, Embedded and DeepLearning are my favourites.
 
 ### Windows Desktop
 
-[SLooper](https://github.com/StefanKDS/LooperProject)
-LooperProject contains a sample looper for Windows and Android.
+[SLooper](https://github.com/StefanKDS/LooperProject)  
+LooperProject contains a sample looper for Windows and Android.  
 I will add more discription in the next days.....
 
 
