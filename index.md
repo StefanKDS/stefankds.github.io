@@ -11,7 +11,8 @@ Android, Windows, Embedded and DeepLearning are my favourites.
 LooperProject contains a sample looper for Windows and Android.  
 I will add more discription in the next days...
   
-  
+
+
 
 ### DeepLearning ( all done with PyCharm )
   
@@ -22,7 +23,9 @@ It's a Regression model demonstrating how to predict the survival on the Titanic
 It's a CNN demonstrating how to identify cats and dogs on different pictures.  
 The data itself were to big to upload on github.  
 You can find theme [here](https://www.kaggle.com/c/dogs-vs-cats).
-
+  
+  
+  
 ### Embedded
 
 
