@@ -8,6 +8,10 @@ Android, Windows, Embedded and DeepLearning are my favourites.
 
 All Projects are open-source and under MIT License.  
 
+In case that you like what I do it would be nice to get a pizza from you:  
+[Buy me a pizza](https://www.buymeacoffee.com/StefanKDS)  
+
+
 
 ### Windows Desktop
 
