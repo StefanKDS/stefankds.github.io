@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stefan KDS – Software Developer, C#, WPF, C++, Python, Embedded Systems">
+  <title>Stefan KDS · Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <a class="brand" href="#">Stefan<span>KDS</span></a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a class="github-link" href="https://github.com/StefanKDS" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> Software Developer · Germany</div>
+        <h1>Building software<br><em>that works.</em></h1>
+        <p class="lead">
+          Professional C# / WPF developer with a passion for C++, Python,
+          embedded systems and practical engineering.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore projects <span>↓</span></a>
+          <a class="button ghost" href="https://github.com/StefanKDS" target="_blank" rel="noopener">View GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal-top"><span></span><span></span><span></span><b>stefan@dev ~</b></div>
+        <pre><code><span class="muted">$</span> whoami
+<span class="accent">Stefan</span> — software developer
+
+<span class="muted">$</span> stack
+<span class="key">C#</span>   <span class="key">WPF</span>   <span class="key">C/C++</span>
+<span class="key">Python</span>   <span class="key">Embedded</span>   <span class="key">ML</span>
+
+<span class="muted">$</span> status
+<span class="ok">● open to interesting projects</span></code></pre>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">01 · OPEN SOURCE</div>
+          <h2>Projects & repositories</h2>
+        </div>
+        <div class="repo-count" id="repoCount">Loading…</div>
+      </div>
+
+      <div class="toolbar">
+        <label class="search">
+          <span>⌕</span>
+          <input id="search" type="search" placeholder="Search repositories…" autocomplete="off">
+        </label>
+        <div id="filters" class="filters"></div>
+        <select id="sort" aria-label="Sort repositories">
+          <option value="updated">Recently updated</option>
+          <option value="stars">Most stars</option>
+          <option value="name">Name</option>
+        </select>
+      </div>
+
+      <div id="repos" class="repo-grid">
+        <div class="loading-card">Loading repositories from GitHub…</div>
+      </div>
+      <p id="empty" class="empty" hidden>No repositories match your search.</p>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-copy">
+        <div class="eyebrow">02 · ABOUT</div>
+        <h2>Engineering with<br><em>curiosity.</em></h2>
+        <p>
+          I enjoy turning ideas into reliable software — from desktop applications
+          and user interfaces to microcontrollers and experimental projects.
+        </p>
+      </div>
+      <div class="stats" id="stats">
+        <div class="stat"><strong id="publicRepos">—</strong><span>public repos</span></div>
+        <div class="stat"><strong id="stars">—</strong><span>stars</span></div>
+        <div class="stat"><strong id="followers">—</strong><span>followers</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Stefan KDS</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+    <a href="https://github.com/StefanKDS" target="_blank" rel="noopener">github.com/StefanKDS ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
