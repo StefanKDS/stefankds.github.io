@@ -3,99 +3,121 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Stefan KDS – Software Developer, C#, WPF, C++, Python, Embedded Systems">
-  <title>Stefan KDS · Developer</title>
+  <meta name="description" content="StefanKDS – Software Developer, C#, C++, Python, WPF, Embedded Systems">
+  <meta name="theme-color" content="#030b13">
+  <title>StefanKDS · Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-grid"></div>
+  <div class="scanlines"></div>
+  <div class="pcb-bg" aria-hidden="true"></div>
+
   <header class="nav">
-    <a class="brand" href="#">Stefan<span>KDS</span></a>
+    <a class="brand" href="#top" aria-label="StefanKDS Startseite">
+      <span class="chip-logo">⌬</span><span>Stefan<span class="cyan">KDS</span></span>
+    </a>
     <nav>
-      <a href="#projects">Projects</a>
+      <a class="active" href="#top">Home</a>
+      <a href="#repositories">Repositories</a>
+      <a href="#stack">Tech Stack</a>
       <a href="#about">About</a>
-      <a class="github-link" href="https://github.com/StefanKDS" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="nav-github" href="https://github.com/StefanKDS" target="_blank" rel="noopener">◉ GitHub</a>
     </nav>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="pulse"></span> Software Developer · Germany</div>
-        <h1>Building software<br><em>that works.</em></h1>
-        <p class="lead">
-          Professional C# / WPF developer with a passion for C++, Python,
-          embedded systems and practical engineering.
-        </p>
-        <div class="actions">
-          <a class="button primary" href="#projects">Explore projects <span>↓</span></a>
-          <a class="button ghost" href="https://github.com/StefanKDS" target="_blank" rel="noopener">View GitHub ↗</a>
+      <div class="hero-left">
+        <div class="avatar-wrap">
+          <img src="https://github.com/StefanKDS.png" alt="StefanKDS GitHub avatar" class="avatar">
+          <span class="avatar-ring"></span>
+        </div>
+        <div class="hero-text">
+          <div class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER</div>
+          <h1>Stefan<br><span class="cyan">Developer</span></h1>
+          <p class="stack-line">C# / C++ / Python&nbsp;&nbsp;|&nbsp;&nbsp;Embedded Systems&nbsp;&nbsp;|&nbsp;&nbsp;Machine Learning</p>
+          <p class="intro">Ich entwickle robuste Software für Desktop-Anwendungen, technische Systeme und Embedded-Projekte. Technik, die funktioniert und Spaß macht.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://github.com/StefanKDS" target="_blank" rel="noopener">◉&nbsp; GitHub Profil</a>
+            <a class="btn" href="#repositories">⌘&nbsp; Projekte ansehen</a>
+          </div>
+          <div class="contact-row">
+            <span>⌁ StefanKDS</span><span>⌖ Germany</span><span>▣ Open Source</span>
+          </div>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="terminal-top"><span></span><span></span><span></span><b>stefan@dev ~</b></div>
-        <pre><code><span class="muted">$</span> whoami
-<span class="accent">Stefan</span> — software developer
 
-<span class="muted">$</span> stack
-<span class="key">C#</span>   <span class="key">WPF</span>   <span class="key">C/C++</span>
-<span class="key">Python</span>   <span class="key">Embedded</span>   <span class="key">ML</span>
-
-<span class="muted">$</span> status
-<span class="ok">● open to interesting projects</span></code></pre>
+      <div class="chip-art" aria-hidden="true">
+        <div class="chip-lines"></div>
+        <div class="cpu">
+          <div class="cpu-label">STEFAN<br>KDS</div>
+          <div class="cpu-code">CODE<br>BUILD<br>IMPROVE<br>REPEAT</div>
+        </div>
+        <span class="trace t1"></span><span class="trace t2"></span><span class="trace t3"></span>
+        <span class="trace t4"></span><span class="trace t5"></span><span class="trace t6"></span>
+        <span class="node n1"></span><span class="node n2"></span><span class="node n3"></span>
+        <span class="node n4"></span><span class="node n5"></span><span class="node n6"></span>
       </div>
     </section>
 
-    <section id="projects" class="projects-section">
-      <div class="section-head">
-        <div>
-          <div class="eyebrow">01 · OPEN SOURCE</div>
-          <h2>Projects & repositories</h2>
-        </div>
-        <div class="repo-count" id="repoCount">Loading…</div>
+    <section id="stack" class="section tech-section">
+      <div class="section-title"><span class="icon">&lt;/&gt;</span><div><div class="eyebrow">TECHNOLOGIEN & TOOLS</div><p>Die Werkzeuge, mit denen ich arbeite und experimentiere.</p></div></div>
+      <div class="tech-grid">
+        <div class="tech"><b>◈</b><span>C#</span></div>
+        <div class="tech"><b>◆</b><span>C / C++</span></div>
+        <div class="tech"><b>⌁</b><span>Python</span></div>
+        <div class="tech"><b>▣</b><span>WPF</span></div>
+        <div class="tech"><b>▤</b><span>Embedded</span></div>
+        <div class="tech"><b>◉</b><span>Machine Learning</span></div>
+        <div class="tech"><b>⑂</b><span>Git</span></div>
+        <div class="tech"><b>▰</b><span>Visual Studio</span></div>
+        <div class="tech"><b>⌂</b><span>Linux</span></div>
       </div>
+    </section>
 
+    <section id="featured" class="section">
+      <div class="section-heading"><div><div class="eyebrow">FEATURED PROJECTS</div><h2>Things I <span class="cyan">build.</span></h2></div><a href="#repositories" class="text-link">Alle Projekte →</a></div>
+      <div id="featuredGrid" class="featured-grid"></div>
+    </section>
+
+    <section id="repositories" class="section repos-section">
+      <div class="section-heading"><div><div class="eyebrow">OPEN SOURCE</div><h2>Meine <span class="cyan">Repositories.</span></h2><p>Alle öffentlichen, nicht geforkten Repositories werden automatisch von GitHub geladen.</p></div><div id="repoCount" class="mono">Lade Daten …</div></div>
       <div class="toolbar">
-        <label class="search">
-          <span>⌕</span>
-          <input id="search" type="search" placeholder="Search repositories…" autocomplete="off">
-        </label>
+        <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Suche nach Repository …"></label>
         <div id="filters" class="filters"></div>
-        <select id="sort" aria-label="Sort repositories">
-          <option value="updated">Recently updated</option>
-          <option value="stars">Most stars</option>
-          <option value="name">Name</option>
-        </select>
+        <select id="sort"><option value="updated">Zuletzt aktualisiert</option><option value="stars">Meiste Stars</option><option value="name">Name</option></select>
       </div>
-
-      <div id="repos" class="repo-grid">
-        <div class="loading-card">Loading repositories from GitHub…</div>
-      </div>
-      <p id="empty" class="empty" hidden>No repositories match your search.</p>
+      <div id="repos" class="repo-grid"><div class="loading">Initialisiere GitHub-Verbindung …</div></div>
+      <p id="empty" class="empty" hidden>Keine passenden Repositories gefunden.</p>
     </section>
 
-    <section id="about" class="about">
-      <div class="about-copy">
-        <div class="eyebrow">02 · ABOUT</div>
-        <h2>Engineering with<br><em>curiosity.</em></h2>
-        <p>
-          I enjoy turning ideas into reliable software — from desktop applications
-          and user interfaces to microcontrollers and experimental projects.
-        </p>
+    <section id="about" class="section lower">
+      <div class="stats-card">
+        <div class="card-head"><span>◉</span> GitHub Stats</div>
+        <div class="stat-grid">
+          <div><strong id="publicRepos">—</strong><span>Repositories</span></div>
+          <div><strong id="stars">—</strong><span>Stars gesamt</span></div>
+          <div><strong id="forks">—</strong><span>Forks gesamt</span></div>
+          <div><strong id="followers">—</strong><span>Followers</span></div>
+        </div>
       </div>
-      <div class="stats" id="stats">
-        <div class="stat"><strong id="publicRepos">—</strong><span>public repos</span></div>
-        <div class="stat"><strong id="stars">—</strong><span>stars</span></div>
-        <div class="stat"><strong id="followers">—</strong><span>followers</span></div>
+      <div class="about-card">
+        <div class="card-head"><span>⌬</span> Contribution Signal</div>
+        <div id="contrib" class="contrib"></div>
+        <div class="legend"><span>Weniger</span><i></i><i></i><i></i><i></i><span>Mehr</span></div>
       </div>
     </section>
   </main>
 
   <footer>
-    <span>© <span id="year"></span> Stefan KDS</span>
-    <span>Built with HTML · CSS · JavaScript</span>
-    <a href="https://github.com/StefanKDS" target="_blank" rel="noopener">github.com/StefanKDS ↗</a>
+    <div class="footer-brand"><span class="chip-logo">⌬</span><div><b>StefanKDS</b><small>Build · Learn · Create</small></div></div>
+    <div class="footer-links"><a href="https://github.com/StefanKDS" target="_blank" rel="noopener">◉ GitHub</a><a href="#repositories">Repositories</a><a href="#stack">Tech Stack</a></div>
+    <div class="footer-quote">„Technologie ist am besten,<br> wenn sie Menschen hilft.“</div>
   </footer>
+  <div class="copyright">© <span id="year"></span> StefanKDS · All rights reserved.</div>
 
   <script src="script.js"></script>
 </body>

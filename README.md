@@ -1,13 +1,15 @@
-# stefankds.github.io
+# StefanKDS GitHub Portfolio
 
-Personal developer portfolio for StefanKDS.
+Tech-/Electronics themed personal GitHub Pages site.
 
 ## Features
-- Responsive dark developer portfolio
-- Loads public repositories automatically from the GitHub API
-- Search and language filters
-- Sorting by update date, stars and name
-- GitHub profile statistics
+- PCB / electronics inspired dark UI
+- GitHub avatar and profile links
+- Featured projects, with `CWKeyer` and `FT8_Transceiver_QRP` preferred automatically
+- All public, non-forked, non-archived repositories loaded dynamically from GitHub
+- Search, language filter and sorting
+- GitHub statistics
+- Responsive layout
 
 ## Deploy
-Create a repository named `StefanKDS.github.io` (GitHub usernames are case-insensitive), upload these files, then enable GitHub Pages from the repository settings.
+Use this repository as `StefanKDS.github.io`, upload all files to `main`, then enable GitHub Pages under Settings → Pages → Deploy from branch → `main` / root.
